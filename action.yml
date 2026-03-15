@@ -1,4 +1,4 @@
-name: CI Failure Explainer
+name: AI CI Failure Explainer
 description: Explain failed GitHub Actions jobs with AI and post root-cause summaries to pull requests or job summaries.
 author: OpenAI Codex
 
