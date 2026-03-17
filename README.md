@@ -217,6 +217,17 @@ This keeps OpenAI usage inexpensive while still providing useful explanations.
 
 If the OpenAI API call fails, the action still runs and produces a fallback explanation. If the OpenAI API key is not provided, the action skips AI analysis gracefully and writes a summary explaining why.
 
+## OpenAI API Key
+
+To enable AI failure explanations, provide your own OpenAI API key:
+
+```yaml
+with:
+  openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+```
+
+If no OpenAI API key is provided, the action skips AI analysis gracefully.
+
 ## Roadmap
 
 Planned improvements:
